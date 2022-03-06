@@ -1,0 +1,79 @@
+.navigation{
+    float: right;
+    height: 100%;
+    padding: 10px 80px;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: cornflowerblue;
+    color: #101010;
+}
+
+.right {
+    font-family: "Segoe UI Light", sans-serif;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+.logo-container{
+    width: 30%;
+    color: white;
+    padding: 10px 80px;
+    float: left
+}
+.inner-header{
+    width: 100%;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+DIV.container {
+    min-height: 10em;
+    vertical-align: middle
+}
+
+footer {
+    font-family: "Segoe UI Light", sans-serif;
+    margin-left: 25%;
+    margin-right: auto;
+    position:absolute;
+    align-content: center;
+    bottom:0;
+    width:50%;
+    height:60px;
+}
